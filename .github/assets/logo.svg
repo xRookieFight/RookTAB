@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="RookTAB">
+  <defs>
+    <linearGradient id="rook" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="backdrop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="96" fill="url(#backdrop)"/>
+  <rect x="8" y="8" width="496" height="496" rx="88" fill="none" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="4"/>
+
+  <g fill="url(#rook)">
+    <path d="M112 128h40v40h32v-40h40v40h32v-40h40v88l-32 32v104l32 32v24H112v-24l32-32V248l-32-32z"/>
+  </g>
+
+  <g fill="#22d3ee">
+    <rect x="304" y="152" width="24" height="24" rx="6"/>
+    <rect x="304" y="240" width="24" height="24" rx="6" fill-opacity="0.75"/>
+    <rect x="304" y="328" width="24" height="24" rx="6" fill-opacity="0.5"/>
+  </g>
+
+  <g fill="#e2e8f0">
+    <rect x="348" y="158" width="120" height="12" rx="6"/>
+    <rect x="348" y="246" width="96" height="12" rx="6" fill-opacity="0.75"/>
+    <rect x="348" y="334" width="72" height="12" rx="6" fill-opacity="0.5"/>
+  </g>
+</svg>
